@@ -1,0 +1,21 @@
+<!---Staff Member Table in Staff Login Database--->
+
+   SELECT * FROM stafflogin.staffmember;
+
+insert into stafflogin.staffmember values (0,'Sajani','071548262','sajani11@gmail.com','SM001','sa123','10245789');
+insert into stafflogin.staffmember values (0,'Imaya', '011457821','imaya98@gmail.com','SM002','ima456','47859658');
+insert into stafflogin.staffmember values (0,'Randima','076589452','randy123@gmail.com','SM003','randy99','457854123');
+insert into stafflogin.staffmember values (0,'Aroshini','077845961','aro12@gmail.com','SM004','aro001','0014524788');
+insert into stafflogin.staffmember values (0,'Dimalka','071145552','dima20@gmail.com','SM005','dima1020','7894625135');
+
+
+
+<!---Payment Table in Customet Database--->
+
+SELECT * FROM customer.payment;
+
+insert into customer.payment values (0,'Sajani ','071548262','sajani11@gmail.com','sa123','10245789','10/1A,Matara','8004100','BOC','199', '5/23','25000.00');
+insert into customer.payment values (0,'Imaya', '011457821','imaya98@gmail.com','ima456','47859658' , '23/2,Badulla','18745124785','BOC','399', '10/25','20000.00');
+insert into customer.payment values (0,'Randima','076589452','randy123@gmail.com','randy99','457854123','A/9Road,Anuraddhapura','800451257','Commercial','100', '12/24','45000.00');
+insert into customer.payment values (0,'Aroshini','077845961','aro12@gmail.com','aro001','0014524788','23/A,Badulla' ,'100452785412','NSB','749', '11/26','22000.00');
+insert into customer.payment values (0,'Dimalka','071145552','dima20@gmail.com','dima1020','7894625135','22/A,Matara','10451000141','Commercial','200', '3/23','55000.00');

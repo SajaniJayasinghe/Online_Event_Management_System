@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+        <servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.customer.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/paymentDetails</url-pattern>
+	</servlet-mapping> 
+    
+    <servlet>
+    <servlet-name>paymentInsert</servlet-name>
+    <servlet-class>com.customer.PaymentInsert</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+    <servlet-name>paymentInsert</servlet-name>
+    <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+		<servlet-name>UpdateCardServlet</servlet-name>
+		<servlet-class>com.customer.UpdateCardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateCardServlet</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>deletePayment</servlet-name>
+		<servlet-class>com.customer.deletePayment</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deletePayment</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+   </web-app>
